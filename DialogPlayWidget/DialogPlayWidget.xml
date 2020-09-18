@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="DialogPlayWidget.widget.DialogPlayWidget" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>DialogPlayWidget</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="token" type="string" required="true" defaultValue="">
+            <caption>Token</caption>
+            <category>Preference</category>
+            <description></description>
+        </property>
+        <property key="title" type="string" required="true" defaultValue="">
+            <caption>Title</caption>
+            <category>Preference</category>
+            <description></description>
+        </property>
+        <property key="position" type="string" required="true" defaultValue="position-right">
+            <caption>Position</caption>
+            <category>Preference</category>
+            <description>position-right, -left, -frame</description>
+        </property>
+        <property key="launcher" type="string" required="true" defaultValue="title-header">
+            <caption>Launcher type</caption>
+            <category>Preference</category>
+            <description>title-header, balloon-button, custom-image, none</description>
+        </property>
+        <property key="launcherimage" type="string" required="false" defaultValue="">
+            <caption>Launcher image</caption>
+            <category>Preference</category>
+            <description>Specify when custom image selected</description>
+        </property>
+        <property key="closer" type="string" required="true" defaultValue="header">
+            <caption>Closer type</caption>
+            <category>Preference</category>
+            <description>header, button</description>
+        </property>
+        <property key="font" type="integer" required="true" defaultValue="0">
+            <caption>Font size</caption>
+            <category>Preference</category>
+            <description></description>
+        </property>
+        <property key="theme" type="string" required="true" defaultValue="theme-blue">
+            <caption>Theme</caption>
+            <category>Preference</category>
+            <description>theme-blue, -green, -red, -orange, custom</description>
+        </property>
+        <property key="themecolor" type="string" required="false" defaultValue="">
+            <caption>Theme custom color</caption>
+            <category>Preference</category>
+            <description>Specify when custom theme selected</description>
+        </property>
+        <property key="fit" type="boolean" required="true" defaultValue="false">
+            <caption>Fit chat window height</caption>
+            <category>Preference</category>
+            <description></description>
+        </property>
+    </properties>
+</widget>
